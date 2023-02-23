@@ -3,8 +3,13 @@
   * If ran with a single argument of a color name, it changes the LED strip to that color
   * If ran with no arguments, it pings a host and changes to green or red to indicate uptime
   * The script can easily be called from a cron job that runs every minute to act as an interage outage detector. A cool use case is for LED strips in a server rack.
-  * Example:
-         sudo python GIOLED.py purple
+
+
+* Example run:
+
+          sudo python GIOLED.py purple
+
+
 
 * Feel free to repurpose as needed.
 
